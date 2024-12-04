@@ -1,0 +1,61 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Configuration files
+*.ini
+*.cfg
+*.yaml
+*.yml
+
+# Logs and debugging
+*.log
+debug.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Test output
+coverage/
+*.cover
+*.py,cover
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore secret files
+*.env
+config.json
+
+# Ignore cached files by tools like pip
+pip-wheel-metadata/
+
+# Ignore any specific program-related directories or files
+program1/temp/
+program2/temp/
+

@@ -1,0 +1,5 @@
+Modes of Transport,Speed_kmh,Cost_per_km,Transfer_Time_min
+Bus,40,2,2
+Train,80,5,5
+Bicycle,15,0,1
+Walking,5,0,0

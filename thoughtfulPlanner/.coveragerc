@@ -1,0 +1,5 @@
+[run]
+omit =
+    PART_I/logger.py
+    PART_I/test01.py
+

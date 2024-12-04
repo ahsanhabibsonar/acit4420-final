@@ -1,0 +1,14 @@
+Category,Extensions
+Images,.jpg .jpeg .png .gif
+Documents,.pdf .docx .txt .odt
+Videos,.mp4 .mov .avi
+Music,.mp3 .wav
+Archives,.zip .tar .gz
+Scripts,.py .sh
+TEX,.tex .tex .tex .tex
+PY,.py .py .py
+PYC,.pyc .pyc .pyc .pyc
+SH,.sh .sh .sh
+,
+TAG,.tag .tag
+MD,.md .md
