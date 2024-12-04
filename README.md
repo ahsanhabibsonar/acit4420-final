@@ -34,24 +34,30 @@ This project is divided into two main components:
 
 ---
 
-## Project Structure
 
-├── address_data.csv # CSV file with address and coordinate data 
-├── transport_modes.csv # CSV file with transport modes and attributes 
-├── data_loader.py # Loads and validates data 
-├── main.py # Entry point for both modules 
-├── graph_builder.py # Constructs graphs for pathfinding 
-├── minimal_transfer.py # Minimal Transfer pathfinding logic 
-├── fastest_path.py # Fastest Route pathfinding logic 
-├── least_cost.py # Least Cost pathfinding logic 
-├── all_transport_modes.py # All Transport Modes pathfinding logic 
-├── plotting.py # Graph visualization utility 
-├── test_project.py # Unit tests for Thoughtful Planner 
-├── dynamic_extension.py # Dynamically handles unknown file extensions 
-├── logger.py # Centralized logging for error handling 
-├── organizer.py # File Organizer implementation 
-├── categories.csv # CSV file with file type mappings
+## Project Directory Structure
 
+```plaintext
+Project Root
+├── address_data.csv           # CSV file with address and coordinate data
+├── transport_modes.csv        # CSV file with transport modes and attributes
+├── data_loader.py             # Loads and validates data
+├── main.py                    # Entry point for both modules
+├── graph_builder.py           # Constructs graphs for pathfinding
+├── minimal_transfer.py        # Minimal Transfer pathfinding logic
+├── fastest_path.py            # Fastest Route pathfinding logic
+├── least_cost.py              # Least Cost pathfinding logic
+├── all_transport_modes.py     # All Transport Modes pathfinding logic
+├── plotting.py                # Graph visualization utility
+├── test_project.py            # Unit tests for Thoughtful Planner
+├── test_emptyGraph.py         # Unit tests for Thoughtful Planner
+├── dynamic_extension.py       # Dynamically handles unknown file extensions
+├── logger.py                  # Centralized logging for error handling
+├── organizer.py               # File Organizer implementation
+├── categories.csv             # CSV file with file type mappings
+├── test_file_organizer.py     # Unit tests for File Organizer
+
+```
 
 ---
 
