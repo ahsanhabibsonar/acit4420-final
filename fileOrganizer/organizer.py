@@ -1,8 +1,10 @@
 
 import os
 import shutil
-from logger import logger
-from config import Config
+#from logger import logger
+from .logger import logger
+
+from .config import Config
 import csv
 
 class Organizer:

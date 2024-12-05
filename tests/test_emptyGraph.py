@@ -1,5 +1,6 @@
 def test_empty_graph():
-    from minimal_transfer import minimal_transfer
+    from thoughtfulPlanner.minimal_transfer import minimal_transfer
+
     import networkx as nx
 
     graph = nx.Graph()  # Empty graph

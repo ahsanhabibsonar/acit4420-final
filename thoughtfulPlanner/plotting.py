@@ -133,6 +133,5 @@ def plot_graph(graph, path, transport_modes_used, transfer_times,transport_modes
 
     # Display the plot
     #plt.tight_layout()
-    plt.savefig(f"plot_{title_text}.png", dpi=500)
     plt.show()
     

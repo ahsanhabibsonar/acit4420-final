@@ -1,8 +1,9 @@
 #test_project.py
 import pytest
-from data_loader import load_streets
-from minimal_transfer import minimal_transfer
-from graph_builder import build_graph
+
+from thoughtfulPlanner.data_loader import add_coordinates, load_streets
+from thoughtfulPlanner.minimal_transfer import minimal_transfer
+from thoughtfulPlanner.graph_builder import build_graph
 
 # Test load_streets
 def test_load_streets():

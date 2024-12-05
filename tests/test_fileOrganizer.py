@@ -1,6 +1,6 @@
 #test_file_organizer.py
 import pytest
-from organizer import Organizer
+from fileOrganizer.organizer import Organizer
 import os
 
 def test_organize_files(tmpdir):
